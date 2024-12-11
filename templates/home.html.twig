@@ -7,101 +7,63 @@
 
 {% block body %}
 
-      <article class="article1">
-        <h3 id="Heb"><b>Voici  </b></h3>
-        <div id="container3">
-          <div class="bloc3a">
-            <div class="card31">
-              <div class="cardImg31"></div>
-              <div class="cardText31">
-                <h4><b>Auberge La Cannebière</b></h4>
-                <p>Nuit à partir de <b>25€</b></p>
-                <ul class="cardStar3">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star star-gray"></i></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card32">
-              <div class="cardImg32"></div>
-              <div class="cardText32">
-                <h4><b>Hôtel du port</b></h4>
-                <p>Nuit à partir de <b>52€</b></p>
-                <ul class="cardStar3">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card33">
-              <div class="cardImg33"></div>
-              <div class="cardText33">
-                <h4><b>Hôtel Les mouettes</b></h4>
-                <p>Nuit à partir de <b>76€</b></p>
-                <ul class="cardStar3">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star star-gray"></i></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="bloc3b">
-            <div class="card34">
-              <div class="cardImg34"></div>
-              <div class="cardText34">
-                <h4><b>Hôtel de la mer</b></h4>
-                <p>Nuit à partir de <b>46€</b></p>
-                <ul class="cardStar3">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star star-gray"></i></li>
-                  <li><i class="fa-solid fa-star star-gray"></i></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card35">
-              <div class="cardImg35"></div>
-              <div class="cardText35">
-                <h4><b>Auberge Le Panier</b></h4>
-                <p>Nuit à partir de <b>23€</b></p>
-                <ul class="cardStar3">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star star-gray"></i></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card36">
-              <div class="cardImg36"></div>
-              <div class="cardText36">
-                <h4><b>Hôtel chez Amina</b></h4>
-                <p>Nuit à partir de <b>96€</b></p>
-                <ul class="cardStar3">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <a class="afficher" href="#"><b>Afficher plus</b></a>
-        </div>
-      </article>
+	<article class="brand container-fluid">
+		<h1 class="titre">
+			<b>Voici les marques les plus recherchées par les musiciens
+			</b>
+			<button class="bouton">
+				<i class="fa-solid fa-arrow-left"></i>
+			</button>
+			<button class="bouton">
+				<i class="fa-solid fa-arrow-right"></i>
+			</button>
+		</h1>
 
+		<div class="marques container-fluid">
+			<div class="img1">
+				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+			</div>
+			<div class="img1">
+				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+			</div>
+			<div class="img1">
+				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+			</div>
+			<div class="img1">
+				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+			</div>
 
+		</div>
+		<div class="marques container-fluid">
+			<div class="img2">
+				<img src="{{ asset('images/marque1.png') }}" class="img-fluid">
+			</div>
+			<div class="img2">
+				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			</div>
+			<div class="img2">
+				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			</div>
+			<div class="img2">
+				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			</div>
 
-{% endblock %}
+		</div>
+		<div class="marques container-fluid">
+			<div class="img3">
+				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			</div>
+			<div class="img3">
+				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			</div>
+			<div class="img3">
+				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			</div>
+			<div class="img3">
+				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			</div>
+
+		</div>
+
+	</div>
+</article>{% endblock %}
