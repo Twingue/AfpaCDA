@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="d-flex align-items-center col-1" id="navbarLogo">
+			<a class="navbar-brand" href="#">
+				<img src="{{ asset('images/test.png') }}" class="logo img-fluid">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+
+		<div class="container-fluid">
+			<form class="search d-flex" role="search">
+				<input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+
+				<ul class="navbar-nav me-auto d-flex gap-5">
+					<li class="nav-item mx-4">
+						<a class="nav-link " aria-current="page" href="#">Catégorie</a>
+					</li>
+					<li class="nav-item mx-4">
+						<a class="nav-link" href="#">Nouveauté</a>
+					</li>
+					<li class="nav-item mx-4">
+						<a class="nav-link " aria-disabled="true">Promo</a>
+					</li>
+					<li class="nav-item mx-4">
+						<a class="nav-link " aria-disabled="true">A propos
+						</a>
+					</li>
+					<li class="nav-item mx-4">
+						<a class="nav-link " aria-disabled="true">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Panier/admin/compte-->
+			<div class="panel d-flex" id="navbarRight">
+				<a class="navbar-brand mx-4" href="#">
+					<button class="panel1" type="button">
+						<i class="fa-solid fa-user-gear"></i>
+					</button>
+				</a>
+				<a class="navbar-brand mx-4" href="#">
+					<button class="panel1" type="button">
+						<i class="fa-solid fa-cart-shopping"></i>
+					</button>
+				</a>
+				<a class="navbar-brand mx-4" href="#">
+					<button class="panel1" type="button">
+						<i class="fa-solid fa-user"></i>
+					</button>
+				</a>
+			</div>
+		</div>
+	</nav>
