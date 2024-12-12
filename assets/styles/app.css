@@ -1,8 +1,8 @@
 body {
-  background-color: greenyellow;
+  /*background-color: greenyellow;*/
 }
 
-div#container {
+/*div#container {
   display: grid;
   grid-template-columns: 3fr 3fr;
   grid-template-rows: 1fr 3fr 1fr 3fr 1fr;
@@ -15,14 +15,25 @@ div#container {
   max-width: auto;
   margin: auto;
 }
+*/
+/****************** ACCUEIL********************/
+.ecritblanc {
+  color: white;
+  font-size: 150%;
+  margin-right: 10%;
+}
 
 .navbar-collapse {
   /* background-color: green;*/
 }
 
 form.search {
-  /*background-color: blue;*/
+  /* background-color: blue;*/
   margin-right: 10%;
+  width: 20%;
+}
+.form-control {
+  margin-bottom: 2%;
 }
 
 .panel {
@@ -39,18 +50,38 @@ form.search {
 }
 
 .brand {
-  background-color: grey;
+  /*background-color: grey;*/
   grid-area: brand;
   margin: 1%;
   border-radius: 15px;
   width: 50%;
   /*height: 650px;*/
-  
+}
 
+.news {
+  grid-area: brand;
+  margin: 1%;
+  border-radius: 15px;
+  width: 50%;
+  /*background-color: yellow;*/
 }
 
 .titre {
-  background-color: aqua;
+  /* background-color: aqua;*/
+  font-size: 130%;
+}
+
+.titre2 {
+  /*background-color: orange;*/
+  font-size: 130%;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.titre3 {
+  display: flex;
+  justify-content: center;
   font-size: 130%;
 }
 
@@ -62,30 +93,87 @@ form.search {
   margin-left: 1%;
 }
 
+.boutons {
+  display: flex;
+  justify-content: end;
+  margin-right: 7%;
+}
+
+.btnnews {
+  margin-top: 5%;
+}
 
 .marques {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
+.tendance {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tendency {
+  /* background-color: purple;*/
+  grid-area: tendency;
+  margin: 1%;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.nouveauhome {
+  display: flex;
+  justify-content: space-around;
+  /*background-color: aqua;*/
+}
+
+.homeparttop {
+  display: flex;
+}
 
 .img1 {
-   /* background-color: blueviolet;*/
-    height: auto;
-    width: auto;
-    margin-top: 2%;
+  /* background-color: blueviolet;*/
+  height: auto;
+  width: auto;
+  margin-top: 2%;
 }
 .img2 {
-    /* background-color: blueviolet;*/
-     height: auto;
-     width: auto;
-     margin-top: 2%;
- }
+  /* background-color: blueviolet;*/
+  height: auto;
+  width: auto;
+  margin-top: 2%;
+}
 
- .img3 {
-    /* background-color: blueviolet;*/
-     height: auto;
-     width: auto;
-     margin-top: 2%;
-     margin-bottom: 2%;
- }
+.img3 {
+  /* background-color: blueviolet;*/
+  height: auto;
+  width: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.img4 {
+  height: 10%;
+  width: 20%;
+  margin-bottom: 2%;
+}
+
+/*********************************FOOTER*****************************/
+
+
+
+.paiement{
+
+  background-color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+

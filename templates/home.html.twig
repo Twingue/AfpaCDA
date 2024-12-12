@@ -7,63 +7,189 @@
 
 {% block body %}
 
-	<article class="brand container-fluid">
-		<h1 class="titre">
-			<b>Voici les marques les plus recherchées par les musiciens
-			</b>
-			<button class="bouton">
-				<i class="fa-solid fa-arrow-left"></i>
-			</button>
-			<button class="bouton">
-				<i class="fa-solid fa-arrow-right"></i>
-			</button>
-		</h1>
+	<!--Patie haut  -->
+	<div
+		class="homeparttop">
+		<!-- Marques les plus rechercher     -->
+		<article class="brand container-fluid">
+			<h1 class="titre">
+				<b>Voici les marques les plus recherchées par les musiciens:
+				</b>
+				<div class="boutons ">
+					<button class="bouton">
+						<i class="fa-solid fa-arrow-left"></i>
+					</button>
+					<button class="bouton">
+						<i class="fa-solid fa-arrow-right"></i>
+					</button>
+				</div>
+			</h1>
 
-		<div class="marques container-fluid">
-			<div class="img1">
-				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+			<div class="marques container-fluid">
+				<div class="img1">
+					<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+				</div>
+				<div class="img1">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img1">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img1">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+
 			</div>
-			<div class="img1">
-				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+			<div class="marques container-fluid">
+				<div class="img2">
+					<img src="{{ asset('images/marque1.png') }}" class="img-fluid">
+				</div>
+				<div class="img2">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img2">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img2">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+
 			</div>
-			<div class="img1">
-				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
-			</div>
-			<div class="img1">
-				<img src="{{ asset('images/marque1.png') }}" class="marque1 img-fluid">
+			<div class="marques container-fluid">
+				<div class="img3">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img3">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img3">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img3">
+					<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+				</div>
 			</div>
 
-		</div>
-		<div class="marques container-fluid">
-			<div class="img2">
-				<img src="{{ asset('images/marque1.png') }}" class="img-fluid">
+		</article>
+
+		<!--  Tendances     -->
+
+		<article class="tendency container-fluid">
+			<h1 class="titre2">
+				<b>Tendances:
+				</b>
+			</h1>
+			<div class="tendance container-fluid">
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance3.png') }}" class=" img-fluid">
+				</div>
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance3.png') }}" class=" img-fluid">
+				</div>
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance4.png') }}" class=" img-fluid">
+				</div>
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance4.png') }}" class=" img-fluid">
+				</div>
 			</div>
-			<div class="img2">
-				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
-			</div>
-			<div class="img2">
-				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
-			</div>
-			<div class="img2">
-				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
+			<div class="tendance container-fluid">
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance4.png') }}" class=" img-fluid">
+				</div>
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance4.png') }}" class=" img-fluid">
+				</div>
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance3.png') }}" class=" img-fluid">
+				</div>
+				<div class="img4">
+					<img src="{{ asset('images/instrument_tendance3.png') }}" class=" img-fluid">
+				</div>
 			</div>
 
-		</div>
-		<div class="marques container-fluid">
-			<div class="img3">
-				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
-			</div>
-			<div class="img3">
-				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
-			</div>
-			<div class="img3">
-				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
-			</div>
-			<div class="img3">
-				<img src="{{ asset('images/marque1.png') }}" class=" img-fluid">
-			</div>
 
-		</div>
-
+		</article>
 	</div>
-</article>{% endblock %}
+
+	<!-- Newsletter  boostrap-->
+
+
+	<section class="py-3 py-md-5 py-xl-10 bg-dark">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
+					<h2 class="ecritblanc display-4 mb-4 mb-md-5 mb-xxl-6 text-center">Inscrivez-vous pour recevoir nos bons plans et promotions allant jusqu'à 80%</h2>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7">
+					<form class="row gy-3 gy-lg-0 gx-lg-2 justify-content-center">
+						<div class="col-12 col-lg-8">
+							<label for="email-newsletter-component" class="visually-hidden">Email Addresse
+							</label>
+							<input type="email" class="form-control bsb-form-control-3xl" id="email-newsletter-component" value="" placeholder="Email Address" aria-label="email-newsletter-component" aria-describedby="email-newsletter-help" required>
+							<div id="email-newsletter-help" class="form-text text-center text-lg-start">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</div>
+						</div>
+						<div class="col-12 col-lg-3 text-center text-lg-start">
+							<button type="submit" class="btn btn-primary bsb-btn-3xl">Inscription</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Part bas-->
+	<div
+		class="homeparttop">
+		<!--Nouveautées -->
+
+		<article class="news container-fluid">
+			<h1 class="titre3">
+				<b>
+					Nouveautées:
+				</b>
+			</h1>
+			<div class="nouveauhome container-fluid">
+				<div class="img5">
+					<img src="{{ asset('images/nouveau1.png') }}" class=" img-fluid">
+				</div>
+				<div class="img5">
+					<img src="{{ asset('images/nouveau2.png') }}" class=" img-fluid">
+				</div>
+				<div class="img5">
+					<img src="{{ asset('images/nouveau3.png') }}" class=" img-fluid">
+				</div>
+			</div>
+			<div class="d-grid gap-2">
+				<button class="btnnews btn btn-lg btn-primary" type="button">Block button</button>
+			</div>
+		</article>
+
+		<!--  Actualitées     -->
+
+		<article class="tendency container-fluid">
+			<h1 class="titre3">
+				<b>Actualitées:
+				</b>
+			</h1>
+		<div class="nouveauhome container-fluid">
+				<div class="img6">
+					<img src="{{ asset('images/actu1.png') }}" class="img-fluid">
+				</div>
+				<div class="img6">
+					<img src="{{ asset('images/actu2.png') }}" class="img-fluid">
+				</div>
+				<div class="img6">
+					<img src="{{ asset('images/actu3.png') }}" class="img-fluid">
+				</div>
+			</div>
+			
+
+
+		</article>
+	</div>
+
+
+{% endblock %}
