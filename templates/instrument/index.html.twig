@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Catégorie
+{% endblock %}
+
+{% block body %}
+	<div class="container">
+		<h1>Instruments</h1>
+		{% for instrument in instruments %}
+<div>
+<p>{{instrument.name}}</p>
+</div>
+
+	    {% endfor %} 
+
+
+</div>{% endblock %}
